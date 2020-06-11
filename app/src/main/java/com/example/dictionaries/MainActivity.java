@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
 //    }
     public void addBtn(View view) {// 添加
         db = dbHelper.getWritableDatabase();
+        System.out.println("awdawdwa");
         final ContentValues values = new ContentValues();
         LayoutInflater factory = LayoutInflater.from(this);
         final View textEntryView = factory.inflate(R.layout.add_layout, null);
